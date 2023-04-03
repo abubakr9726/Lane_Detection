@@ -3,6 +3,7 @@ import cv2
 from cvlib.object_detection import YOLO
 from tensorflow import keras
 import time
+import os
 from Configuration import config
 
 data_array = config()
@@ -15,6 +16,10 @@ Lane_detection, Object_detection = data_array[0], data_array[1], data_array[2], 
 
 yolo = YOLO(WEIGHTS_FILE, CONFIG_FILE, LABELS_FILE)
 model = keras.models.load_model(lane_detection_model)
+
+#checking output directories, if not present then creating the output directories
+if not os.path.exists ("../Output_Result"):
+	os.mkdir ("../Output_Result")
 result = cv2.VideoWriter(vid_output, cv2.VideoWriter_fourcc(*'MJPG'), 10, (1280, 720))
 # used to record the time when we processed last frame
 
