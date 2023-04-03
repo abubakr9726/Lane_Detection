@@ -1,0 +1,13 @@
+config:
+  INPUT_FILE: "../test_videos/challenge.mp4"
+  LABELS_FILE: "../models/coco.names"
+  CONFIG_FILE: "../models/yolov4-tiny.cfg"
+  WEIGHTS_FILE: "../models/yolov4-tiny.weights"
+  lane_detection_model: "../models/lane_detection_model.h5"
+  CONFIDENCE_THRESHOLD: "0.35"
+  nms_thresh: "0.3"
+  vid_output: "lanes_output_clip.avi"
+  GPU_enable: "False"
+  write_conf: "True"
+  Lane_detection: "True"
+  Object_detection: "False"
