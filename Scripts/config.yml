@@ -10,4 +10,4 @@ config:
   GPU_enable: "False"
   write_conf: "True"
   Lane_detection: "True"
-  Object_detection: "False"
+  Object_detection: "True"
