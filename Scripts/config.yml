@@ -1,5 +1,5 @@
 config:
-  INPUT_FILE: "../test_videos/challenge.mp4"
+  INPUT_FILE: "../test_data/challenge.mp4"
   LABELS_FILE: "../models/coco.names"
   CONFIG_FILE: "../models/yolov4-tiny.cfg"
   WEIGHTS_FILE: "../models/yolov4-tiny.weights"
