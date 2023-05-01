@@ -15,3 +15,5 @@
 5. The script uses the cv2.VideoWriter class to create a video writer object for recording the result to a file. It also uses OpenCV to display the output frame by frame.
 
 6. Finally, the script checks for a key press to terminate the application and exits the main loop if the "q" key or the "Esc" key is pressed.
+
+1[](icon.png)
