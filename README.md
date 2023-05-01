@@ -1,5 +1,5 @@
 # Lane Detection
-![](/Readme Data/icon.png)
+![](https://researchleap.com/wp-content/uploads/2021/12/AI_Drive_Reasoning-002.png)
 
 
 **Description**
