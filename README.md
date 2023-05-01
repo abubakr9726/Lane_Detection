@@ -16,4 +16,4 @@
 
 6. Finally, the script checks for a key press to terminate the application and exits the main loop if the "q" key or the "Esc" key is pressed.
 
-![](icon.png)
+![](Readme_Data/icon.png)
